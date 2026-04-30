@@ -45,11 +45,12 @@ DIFFICULTY_SETTINGS = {
 
 def get_engine():
     paths = [
-        "stockfish",
-        "/usr/local/bin/stockfish",
-        "/opt/homebrew/bin/stockfish",
-        "/usr/bin/stockfish",
-    ]
+    "stockfish",
+    "/usr/local/bin/stockfish",
+    "/opt/homebrew/bin/stockfish",
+    "/usr/bin/stockfish",
+    "/usr/games/stockfish",
+]
     for path in paths:
         try:
             return chess.engine.SimpleEngine.popen_uci(path)
