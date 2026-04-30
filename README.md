@@ -4,32 +4,31 @@
 John Brum
 
 ## App Description
-This app is a chess game that allows users to play against an AI opponent. Players can enter their name, choose to play as white or black, and select from three difficulty levels — Easy, Medium, and Hard — before starting a match.
+ChessMate is an interactive chess app that lets users play against an AI opponent. 
+Players enter their name, choose a difficulty level, and select whether they want 
+to play as white or black before starting a match. Features include a hint button 
+and a captured pieces display.
 
 ## Intended Users
-This app is intended for chess players of all skill levels who want to practice against a computer opponent, from beginners learning the game to intermediate players looking for a challenge.
+This app is intended for chess players of all skill levels who want to practice 
+against a computer opponent, from beginners learning the game to intermediate players 
+players looking for a real challenge.
 
-## Planned Features
-- A home page where the user can enter their name, pick a difficulty level, and choose to play as white or black
-- A fully playable chess board where the user competes against an AI engine
-- Three difficulty settings (Easy, Medium, Hard) that adjust how strong the AI plays
+## How To Use
+1. Enter your name on the home screen
+2. Select a difficulty level (Easy, Medium, or Hard)
+3. Choose to play as White or Black
+4. Click Play to start the game
+5. Enter moves in UCI format (e.g., e2e4, g1f3)
+6. Use the Hint button if you get stuck
 
-# Assignment 2
+## Final Features
+- Player name input, difficulty selector, and color picker on the home screen
+- Fully playable chess board against a Stockfish AI engine
+- Three difficulty levels (Easy, Medium, Hard)
+- Hint button that suggests the best available move
+- Captured pieces display showing what each side has taken
+- Check, checkmate, and stalemate detection
 
-## App Description
-ChessMate is an interactive chess app that lets users play against an AI opponent. 
-Players enter their name and choose a difficulty level to receive a personalized 
-game summary. The final version will include a fully playable chess board, color 
-selection, a hint button, and a captured pieces display.
-
-## Currently Implemented
-- App title and description
-- Player name text input
-- Difficulty level selector (Easy, Medium, Hard)
-- Dynamic message that responds to the player's name and difficulty choice
-
-## Planned Features
-- Color selection (White or Black)
-- Fully playable chess board against an AI engine
-- Hint button to suggest the best available move
-- Captured pieces display for both sides
+## Deployed App
+https://chessmate-app-john-brum.streamlit.app
