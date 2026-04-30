@@ -13,3 +13,23 @@ This app is intended for chess players of all skill levels who want to practice 
 - A home page where the user can enter their name, pick a difficulty level, and choose to play as white or black
 - A fully playable chess board where the user competes against an AI engine
 - Three difficulty settings (Easy, Medium, Hard) that adjust how strong the AI plays
+
+# Assignment 2
+
+## App Description
+ChessMate is an interactive chess app that lets users play against an AI opponent. 
+Players enter their name and choose a difficulty level to receive a personalized 
+game summary. The final version will include a fully playable chess board, color 
+selection, a hint button, and a captured pieces display.
+
+## Currently Implemented
+- App title and description
+- Player name text input
+- Difficulty level selector (Easy, Medium, Hard)
+- Dynamic message that responds to the player's name and difficulty choice
+
+## Planned Features
+- Color selection (White or Black)
+- Fully playable chess board against an AI engine
+- Hint button to suggest the best available move
+- Captured pieces display for both sides
